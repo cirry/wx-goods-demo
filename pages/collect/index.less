@@ -1,0 +1,53 @@
+page{
+}
+.collect-main{
+    background-color: #f3f4f6;
+    .collect-title{
+        padding: 40rpx 0;
+        .collect-tips{
+            padding: 15rpx;
+            border: 1px solid #ccc;
+            margin-left: 25rpx ;
+            background-color: #fff;
+        }
+        .active{
+            color:var(--themeColor);
+            border-color: currentColor;
+        }
+    }
+    .collect-content{
+        .goods-item {
+            display: flex;
+            border-bottom: 1px solid #ccc;
+            background-color: #fff;
+            .goods-img-wrap {
+                flex: 2;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                image {
+                    width: 70%;
+                }
+            }
+    
+            .goods-info-wrap {
+                flex: 3;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                /* 让汉字的第二行出现省略号效果，四行代码，重要  */
+                .goods-name {
+                    display: -webkit-box;
+                    overflow: hidden;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                }
+    
+                .goods-price {
+                    color:var(--themeColor);
+                    font-size: 32rpx;
+                }
+            }
+        }
+    }
+}

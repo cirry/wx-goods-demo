@@ -1,0 +1,121 @@
+page {
+  padding-bottom: 90rpx;
+}
+.receive-address-row .address-btn {
+  padding: 20rpx;
+}
+.receive-address-row .user-info-row {
+  display: flex;
+  padding: 20rpx;
+}
+.receive-address-row .user-info-row .user-info {
+  flex: 5;
+}
+.receive-address-row .user-info-row .user-phone {
+  flex: 3;
+  text-align: right;
+}
+/*购物车样式*/
+.cart-content .cart-title {
+  padding: 20rpx;
+  font-size: 36rpx;
+  color: var(--themeColor);
+  border-top: 1rpx solid currentColor;
+  border-bottom: 1rpx solid currentColor;
+}
+.cart-content .cart-main .cart-item {
+  display: flex;
+  padding: 10rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.cart-content .cart-main .cart-item .cart-check-wrap {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-content .cart-main .cart-item navigator.cart-img-wrap {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-content .cart-main .cart-item navigator.cart-img-wrap image {
+  width: 80%;
+}
+.cart-content .cart-main .cart-item .cart-info-wrap {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.cart-content .cart-main .cart-item .cart-info-wrap view.goods-name {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  color: #666;
+}
+.cart-content .cart-main .cart-item .cart-info-wrap .goods-price-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-content .cart-main .cart-item .cart-info-wrap .goods-price-wrap .goods-price {
+  color: var(--themeColor);
+  font-size: 34rpx;
+}
+.cart-content .cart-main .cart-item .cart-info-wrap .goods-price-wrap .cart-num-tool {
+  display: flex;
+}
+.cart-content .cart-main .cart-item .cart-info-wrap .goods-price-wrap .cart-num-tool .num-edit {
+  width: 55rpx;
+  height: 55rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1rpx solid #ccc;
+}
+.cart-content .cart-main .cart-item .cart-info-wrap .goods-price-wrap .cart-num-tool .goods-num {
+  width: 55rpx;
+  height: 55rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 底部工具栏*/
+.footer-tool {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 90rpx;
+  background-color: #fff;
+  display: flex;
+  border-bottom: 1rpx solid #ccc;
+}
+.footer-tool .all-check-wrap {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-tool .total-price-wrap {
+  flex: 5;
+  text-align: right;
+  padding-right: 15rpx;
+}
+.footer-tool .total-price-wrap .total-price .total-price-text {
+  color: var(--themeColor);
+  font-size: 34rpx;
+  font-weight: 600;
+}
+.footer-tool .order-pay-wrap {
+  flex: 3;
+  background-color: var(--themeColor);
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

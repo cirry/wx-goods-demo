@@ -1,0 +1,4 @@
+<view class="search-row">
+    <input placeholder="请输入您要搜索的商品"></input>
+    <text class="close-circle">取消</text>
+</view>
