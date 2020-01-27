@@ -1,4 +1,4 @@
-// pages/goods_details/index.js
+// pages/goods_detail/index.js
 import { request } from "../../request/index";
 
 /**

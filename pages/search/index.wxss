@@ -22,3 +22,15 @@ page {
   justify-content: center;
   align-items: center;
 }
+.search-content {
+  margin-top: 30rpx;
+}
+.search-content .search-item {
+  background-color: #fff;
+  font-size: 26rpx;
+  padding: 15rpx 10rpx;
+  border-bottom: 1rpx solid #ccc;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

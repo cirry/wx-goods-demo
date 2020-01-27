@@ -9,7 +9,7 @@
             <navigator class="goods-item"
             wx:for="{{collect}}"
             wx:key="goods_id"
-            url="/pages/goods_details/index?goods_id={{item.goods_id}}"
+            url="/pages/goods_detail/index?goods_id={{item.goods_id}}"
             >
                 <!-- 左侧图片容器 -->
                 <view class="goods-img-wrap">
