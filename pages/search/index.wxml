@@ -4,7 +4,7 @@
 </view>
 
 <view class="search-content">
-    <navigator url="/pages/goods_details/index?goods_id={{item.goods_id}}" class="search-item" wx:for="{{goods}}" wx:key="goods_id">
+    <navigator url="/pages/goods_detail/index?goods_id={{item.goods_id}}" class="search-item" wx:for="{{goods}}" wx:key="goods_id">
         {{item.goods_name}}
     </navigator>
 </view>
